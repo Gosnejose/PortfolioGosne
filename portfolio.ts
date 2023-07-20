@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "Soy un programador web junior con experiencia en front-end y back-end. Aprendí a programar en DigitalHouse utilizando JavaScript, Node.js y React. También tengo conocimientos en bases de datos MySQL y uso de Git. Recientemente, trabajé en un proyecto de ecommerce aplicando el patrón MVC, donde aprendí a realizar operaciones CRUD y crear vistas dinámicas con React y EJS. Busco mi primer trabajo como programador y estoy dispuesto a seguir aprendiendo y contribuir al equipo. ¡Si tienes alguna oportunidad o deseas conectarte, envíame un mensaje!",
   resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    'https://www.canva.com/design/DAFX7NYK08k/iAZCg9FS5cOytLz_2-q70Q/edit?utm_content=DAFX7NYK08k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
 };
 
 export const openSource = {
@@ -27,12 +27,12 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+  url: 'https://github.com/Gosnejose',
+  linkedin: 'https://www.linkedin.com/in/jose-gosne-24b892255/',
+  github: 'https://github.com/Gosnejose',
+  instagram: 'https://www.instagram.com/josegosne_gudy/',
+  facebook: 'https://www.facebook.com/gudy.gosne',
+  twitter: 'https://twitter.com/home',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -44,10 +44,9 @@ export const skillsSection: SkillsSectionType = {
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
-        ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+          '⚡ Creación de aplicaciones de una sola página (SPA) y PWA con capacidad de respuesta en React.js'),
+        
+        emoji('⚡ Creación de sitios web estáticos receptivos usando Next.js'),
       ],
       softwareSkills: [
         {
@@ -153,24 +152,24 @@ export const experience: ExperienceType[] = [
 export const projects: ProjectType[] = [
   {
     name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    desc: 'Plantilla de portafolio de desarrollador de software creada con react.js y next.js bootstrap que lo ayuda a mostrar su trabajo y habilidades como desarrollador de software',
+    github: 'https://github.com/Gosnejose',
+    link: 'https://github.com/Gosnejose/PortfolioGosne',
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    name: 'mercado Liebre',
+    desc: 'Mercado liebre es ecommerce que se desarrolo en el transcurso del curso de digital house, donde puse en practica mis conocimientos aprendido durante el cursado',
+    github: 'https://github.com/1Jose100/Django-React-Marketplace',
   },
   {
     name: 'Technota (Forum)',
     desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    github: 'https://github.com/1Jose100/django-react-forum',
   },
   {
     name: 'Shopaza (Ecommerce)',
     desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
+    github: 'https://github.com/1Jose100/Django-ecommerce',
   },
 ];
 
@@ -180,19 +179,19 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Gosne jose',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
+    'Un apasionado desarrollador web Full Stack y desarrollador de Blockchain.',
+  author: 'Gosne jose',
   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  url: 'https://github.com/Gosnejose',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
+    'Jose',
+    'Gosne jose',
+    '@1Jose100',
+    '1Jose100',
     'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'Jose Portfolio ',
+    'Gosne jose Portfolio',
   ],
 };
